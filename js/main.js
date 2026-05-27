@@ -60,6 +60,60 @@
     setupNavbar();
   }
 
+  // --- Load Footer Dynamically ---
+  const footerPlaceholder = document.getElementById('footer-placeholder');
+  if (footerPlaceholder) {
+    fetch('components/footer.html')
+      .then(response => response.text())
+      .then(data => {
+        footerPlaceholder.innerHTML = data;
+      })
+      .catch(err => console.error('Failed to load footer:', err));
+  }
+
+  // --- Data-driven classes ---
+  if (typeof classesData !== 'undefined') {
+    // 1. Populate teaching cards
+    const cardsContainer = document.getElementById('teaching-cards-container');
+    if (cardsContainer) {
+      classesData.forEach(c => {
+        const tagsHtml = c.tags.map(t => `<a href="${t.link}" target="_blank" class="card__tag" style="text-decoration: none;">${t.text}</a>`).join('');
+        const html = `
+          <article class="card reveal">
+            <h3 class="card__title"><a href="${c.id}.html" class="card__link">${c.title}</a></h3>
+            <p class="card__description">${c.summary}</p>
+            <div class="card__tags">${tagsHtml}</div>
+          </article>
+        `;
+        cardsContainer.insertAdjacentHTML('beforeend', html);
+      });
+    }
+
+    // 2. Populate class subpages
+    const summaryPlaceholder = document.getElementById('class-summary-placeholder');
+    if (summaryPlaceholder) {
+      const classId = summaryPlaceholder.getAttribute('data-class-id');
+      const classObj = classesData.find(c => c.id === classId);
+      if (classObj) {
+        summaryPlaceholder.innerHTML = `<p style="margin-bottom: var(--space-md);">${classObj.summary}</p>`;
+      }
+    }
+
+    const linkPlaceholder = document.getElementById('class-link-placeholder');
+    if (linkPlaceholder) {
+      const classId = linkPlaceholder.getAttribute('data-class-id');
+      const classObj = classesData.find(c => c.id === classId);
+      if (classObj) {
+        linkPlaceholder.innerHTML = `
+          <div style="margin-top: var(--space-lg);">
+            <a href="${classObj.driveLink}" target="_blank"
+              style="font-weight: 600; text-decoration: underline; color: var(--color-primary);">Access the full course notes on Google Drive</a>
+          </div>
+        `;
+      }
+    }
+  }
+
   // --- Reveal-on-scroll animations ---
   const reveals = document.querySelectorAll('.reveal');
   if (reveals.length && 'IntersectionObserver' in window) {
@@ -80,4 +134,16 @@
     // Fallback: show everything immediately
     reveals.forEach((el) => el.classList.add('visible'));
   }
+
+  // --- Load MathJax for LaTeX rendering ---
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+  const mathJaxScript = document.createElement('script');
+  mathJaxScript.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+  mathJaxScript.async = true;
+  document.head.appendChild(mathJaxScript);
 })();
