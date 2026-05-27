@@ -1,6 +1,7 @@
 /* ============================================================
    Paveul.github.io — Main Script
-   Handles: navbar scroll state, mobile menu, reveal animations
+   Handles: navbar scroll state, active page, mobile menu,
+   reveal animations
    ============================================================ */
 
 (function () {
@@ -10,11 +11,20 @@
   const navbar = document.querySelector('.navbar');
   if (navbar) {
     const onScroll = () => {
-      navbar.classList.toggle('scrolled', window.scrollY > 40);
+      navbar.classList.toggle('scrolled', window.scrollY > 10);
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
   }
+
+  // --- Active nav link ---
+  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.navbar__links a').forEach((link) => {
+    const href = link.getAttribute('href');
+    if (href === currentPage) {
+      link.classList.add('active');
+    }
+  });
 
   // --- Mobile menu toggle ---
   const toggle = document.querySelector('.navbar__toggle');
@@ -46,7 +56,7 @@
           }
         });
       },
-      { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
+      { threshold: 0.1, rootMargin: '0px 0px -20px 0px' }
     );
 
     reveals.forEach((el) => observer.observe(el));
