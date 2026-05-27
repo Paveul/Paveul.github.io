@@ -432,11 +432,12 @@ a:hover {
 /* ---------- Cards ---------- */
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: 1fr;
   gap: var(--space-md);
 }
 
 .card {
+  position: relative;
   padding: var(--space-lg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
@@ -454,6 +455,18 @@ a:hover {
   margin-bottom: var(--space-sm);
 }
 
+.card__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card__link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
 .card__description {
   font-size: var(--font-size-sm);
   color: var(--color-text-muted);
@@ -468,6 +481,8 @@ a:hover {
 }
 
 .card__tag {
+  position: relative;
+  z-index: 1;
   font-size: var(--font-size-xs);
   color: var(--color-text-muted);
   background: var(--color-bg-secondary);
@@ -612,6 +627,49 @@ a:hover {
 
 .reveal-stagger>.reveal:nth-child(5) {
   transition-delay: 0.24s;
+}
+
+/* ---------- Dropdown Menu ---------- */
+.dropdown {
+  position: relative;
+}
+
+.dropdown__menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-xs) 0;
+  min-width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 100;
+  list-style: none;
+}
+
+.dropdown:hover .dropdown__menu,
+.dropdown:focus-within .dropdown__menu {
+  display: block;
+}
+
+.dropdown__menu li {
+  margin: 0;
+}
+
+.dropdown__menu a {
+  display: block;
+  padding: var(--space-xs) var(--space-md);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown__menu a:hover {
+  background: var(--color-bg-hover);
+  color: var(--color-primary);
 }
 
 /* ---------- Responsive ---------- */
