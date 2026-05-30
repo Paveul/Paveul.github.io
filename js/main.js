@@ -103,13 +103,14 @@
     if (linkPlaceholder) {
       const classId = linkPlaceholder.getAttribute('data-class-id');
       const classObj = classesData.find(c => c.id === classId);
-      if (classObj) {
-        linkPlaceholder.innerHTML = `
-          <div style="margin-top: var(--space-lg);">
-            <a href="${classObj.driveLink}" target="_blank"
-              style="font-weight: 600; text-decoration: underline; color: var(--color-primary);">Access the full course notes on Google Drive</a>
+      if (classObj && classObj.links && classObj.links.length > 0) {
+        const linksHtml = classObj.links.map((l, index) => `
+          <div style="margin-top: ${index === 0 ? 'var(--space-lg)' : 'var(--space-md)'};">
+            <a href="${l.link}" target="_blank"
+              style="font-weight: 600; text-decoration: underline; color: var(--color-primary);">${l.text}</a>
           </div>
-        `;
+        `).join('');
+        linkPlaceholder.innerHTML = linksHtml;
       }
     }
   }
