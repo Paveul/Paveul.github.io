@@ -9,7 +9,7 @@ const classesData = [
     with extensions to lattices, poset dimension, ordinals, and Möbius inversion,
     culminating with Galois connections as a unifying framework for dualities.`,
     links: [
-      { text: 'Access the full course notes on Google Drive', link: 'https://drive.google.com/file/d/13uU_JqTdlCPgOboMfCDvnUCstI-SbQux/view?usp=drive_link' }
+      { text: 'Full course notes link', link: 'https://drive.google.com/file/d/13uU_JqTdlCPgOboMfCDvnUCstI-SbQux/view?usp=drive_link' }
     ],
     tags: [
       { text: 'MBL 2025', link: 'https://mathsbeyondlimits.eu/poland/mbl-2025/' }
@@ -25,7 +25,7 @@ const classesData = [
     This class introduces the algebraic language of rings needed to explore these
     exotic 'cousins' of integers and understand unique factorization.`,
     links: [
-      { text: 'Access the full course notes on Google Drive', link: 'https://drive.google.com/file/d/1TazeZSOCpUJN8OueXj_sLMvKXr2FG50V/view?usp=sharing' }
+      { text: 'Full course notes link', link: 'https://drive.google.com/file/d/1TazeZSOCpUJN8OueXj_sLMvKXr2FG50V/view?usp=sharing' }
     ],
     tags: [
       { text: 'MBL 2024', link: 'https://mathsbeyondlimits.eu/poland/mbl-2024/' }
@@ -40,7 +40,7 @@ const classesData = [
     understanding the foundational concepts of groups and their actions
     through geometric examples like the tetrahedron and solving the cubic equation.`,
     links: [
-      { text: 'Access the full course notes on Google Drive', link: 'https://drive.google.com/file/d/1vrs3Rbr0rfE2WRMvndzo_wE2hJKfS3sc/view?usp=sharing' }
+      { text: 'Full course notes link', link: 'https://drive.google.com/file/d/1vrs3Rbr0rfE2WRMvndzo_wE2hJKfS3sc/view?usp=sharing' }
     ],
     tags: [
       { text: 'MBL 2020', link: 'https://mathsbeyondlimits.eu/poland/mbl-2020/' },
@@ -57,7 +57,7 @@ const classesData = [
     ale w 3D możemy błąkać się wiecznie? Wprowadzenie do łańcuchów Markowa
     od podstaw aż do algorytmu PageRank.`,
     links: [
-      { text: 'Access the full course notes on Google Drive', link: 'https://drive.google.com/file/d/1bfHZdHtpggbfNFXs-q3-IC9bDG3SULar/view?usp=drive_link' }
+      { text: 'Full course notes link', link: 'https://drive.google.com/file/d/1bfHZdHtpggbfNFXs-q3-IC9bDG3SULar/view?usp=drive_link' }
     ],
     tags: [
       { text: 'Falenty 2026', link: 'https://fundusz.org/fundusz-zdolni-rekrutacja/obozy/' }
