@@ -2,14 +2,14 @@ const classesData = [
   {
     id: 'class-posets',
     title: 'Posets & Galois Connections',
-    subtitle: 'Maths Beyond Limits, Falenty',
     summary: `
     All around mathematics there are examples of partial orders.
     We study these structures and the basic tools used to analyze them,
     with small excursions to lattices, poset dimension, ordinals, and Möbius inversion,
     culminating with Galois connections as a unifying framework for dualities.`,
     links: [
-      { text: 'Full course notes link', link: 'https://drive.google.com/file/d/13uU_JqTdlCPgOboMfCDvnUCstI-SbQux/view?usp=drive_link' }
+      { text: 'Course notes with solutions', link: 'https://drive.google.com/file/d/18Ke5TXPhm7jdGAs6NZMZas3dEFT39jjx/view?usp=sharing' },
+      { text: 'Course notes without solutions', link: 'https://drive.google.com/file/d/1SORilowl8OL_-pJWlkmvxMZUv3oEmIhC/view?usp=sharing' }
     ],
     tags: [
       { text: 'MBL 2025', link: 'https://mathsbeyondlimits.eu/poland/mbl-2025/' }
@@ -18,7 +18,6 @@ const classesData = [
   {
     id: 'class-exotic-cousins',
     title: 'Exotic Cousins of Integers',
-    subtitle: 'Maths Beyond Limits, Falenty',
     summary: `
     Ever got angry that there is no way to factorize $x^2+y^2$?
     Come to the dark side, where we treat $i = \\sqrt{-1}$ as if it were an integer.
@@ -34,7 +33,6 @@ const classesData = [
   {
     id: 'class-symmetry',
     title: 'What is Symmetry, Actually?',
-    subtitle: 'Maths Beyond Limits, Falenty',
     summary: `
     An exploration of symmetry from a mathematical perspective,
     understanding the foundational concepts of groups and their actions
@@ -50,7 +48,6 @@ const classesData = [
   {
     id: 'class-markov-chains',
     title: '(PL) Łańcuchy Markowa',
-    subtitle: 'Maths Beyond Limits, Falenty',
     summary: `
     Które pole w Monopoly jest odwiedzane najczęściej?
     Dlaczego po losowym spacerze w 1D i 2D zawsze wrócimy do domu —
