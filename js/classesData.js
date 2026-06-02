@@ -57,7 +57,7 @@ const classesData = [
     ale w 3D możemy błąkać się wiecznie? Wprowadzenie do łańcuchów Markowa
     od podstaw aż do algorytmu PageRank.`,
     links: [
-      { text: 'Full course notes link', link: 'https://drive.google.com/file/d/1bfHZdHtpggbfNFXs-q3-IC9bDG3SULar/view?usp=drive_link' }
+      { text: 'Link do notatek z rozwiązaniami', link: 'https://drive.google.com/file/d/1bfHZdHtpggbfNFXs-q3-IC9bDG3SULar/view?usp=drive_link' }
     ],
     tags: [
       { text: 'Falenty 2026', link: 'https://fundusz.org/fundusz-zdolni-rekrutacja/obozy/' }
