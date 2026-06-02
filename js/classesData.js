@@ -6,7 +6,7 @@ const classesData = [
     summary: `
     All around mathematics there are examples of partial orders.
     We study these structures and the basic tools used to analyze them,
-    with extensions to lattices, poset dimension, ordinals, and Möbius inversion,
+    with small excursions to lattices, poset dimension, ordinals, and Möbius inversion,
     culminating with Galois connections as a unifying framework for dualities.`,
     links: [
       { text: 'Full course notes link', link: 'https://drive.google.com/file/d/13uU_JqTdlCPgOboMfCDvnUCstI-SbQux/view?usp=drive_link' }
