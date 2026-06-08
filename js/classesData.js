@@ -14,19 +14,53 @@ const classesData = [
     tags: [
       { text: 'MBL 2025', link: 'https://mathsbeyondlimits.eu/poland/mbl-2025/' }
     ],
-    image: {
+    image1: {
       src: 'assets/standalone_posets_size_4.svg',
       alt: '16 posets of size 4'
     },
+    image2: {
+      src: 'assets/standalone_poset_partitions_4.svg',
+      alt: 'Lattice of partitions of a set of size 4'
+    },
     genesis: [
-      `My favourite type of mathematical objects are those which are <b>easy to define</b>, yet they give rise to <b>rich complexity</b>. Groups, which I ended up specialising in during my academic life, definitely full into this category and so do posets—which this class is about.`,
-      `Besides their elegance, posets are also <b>everywhere</b>. Every time there is any sort of hierarchy, or comparison between your objects of interest, or between their elements, posets will come handy as a language to talk about it. The second part of the class title—<i>Galois connections</i>—is a prime example of this naturality.`,
-      `There was another reason for my motivation to include Galois connections: whenever I had to learn Galois Theory, I was confused about which parts of the proof of the Fundamental Theorem are simple consequences of certain poset-theoretic inclusions and which ones <i>actually prove something</i>. So the connections, beyond serving as good examples of posets, also serve as a great tool when learning Galois Theory.`,
-      `Finally, what I think makes the topic suitable for a class for talented high-school aged maths enthusiasts is that there are lots of fun problems to think about.`
+      `My favourite type of mathematical objects are those
+      which are <b>easy to define</b>,
+      yet they give rise to <b>rich complexity</b>.
+      Groups, which I ended up specialising in
+      during my academic life, definitely full into this category
+      and so do posets—which this class is about.`,
+
+      `Besides their elegance, posets are also <b>everywhere</b>.
+      Every time there is any sort of hierarchy,
+      or comparison between your objects of interest,
+      or between their elements,
+      posets will come handy as a language to talk about it.
+      The second part of the class title—<i>Galois connections</i>—
+      is a prime example of this naturality.`,
+
+      `There was another reason for my motivation to include Galois connections:
+      whenever I had to learn Galois Theory, I was confused about which parts
+      of the proof of the Fundamental Theorem are simple consequences of
+      certain poset-theoretic inclusions
+      and which ones <i>actually prove something</i>.
+      So the connections, beyond serving as good examples of posets,
+      also serve as a great tool when learning Galois Theory.`,
+
+      `Finally, what I think makes the topic suitable for a class
+      for talented high-school aged maths enthusiasts is that
+      there are lots of fun problems to think about.`
     ],
     teachingNotes: [
-      `The class was planned for the 3-day $\\times$ 80 min format of <a href="https://mathsbeyondlimits.eu/" target="_blank" rel="noopener noreferrer">MBL</a>, but there is much more material in the notes.`,
-      `The rough plan was as follows: at first the students are guided into coming up with the basic definitions and examples. Next they choose one or two extension topics to dive deeper in, according to their natural preferences. Finally, we all meet together for the <i>Grand Finale</i>, which is examples and the theory of Galois connections.`,
+      `The class was planned for the 3-day $\\times$ 80 min format of
+      <a href="https://mathsbeyondlimits.eu/" target="_blank" rel="noopener noreferrer">MBL</a>,
+      but there is much more material in the notes.`,
+
+      `The rough plan was as follows:
+      at first the students are guided into coming up with the basic definitions and examples.
+      Next they choose one or two extension topics to dive deeper in,
+      according to their natural preferences.
+      Finally, we all meet together for the <i>Grand Finale</i>,
+      which is examples and the theory of Galois connections.`
     ]
   },
   {
@@ -44,12 +78,31 @@ const classesData = [
     tags: [
       { text: 'MBL 2024', link: 'https://mathsbeyondlimits.eu/poland/mbl-2024/' }
     ],
-    image: null,
+    image2: {
+      src: 'assets/standalone_ramification.svg',
+      alt: 'Ramification of primes'
+    },
+    image1: {
+      src: 'assets/standalone_Eisenstein_1.svg',
+      alt: 'Eisenstein integers grid'
+    },
     genesis: [
-      `Placeholder text for the genesis of the Exotic Cousins of Integers class. This section will describe the motivation and origin of the course.`
+      `I really really like algebra and I can't miss an opportunity to indoctrinate the young with it.
+      The problem is that when algebra is tought from an abstract / axiomatic perspective,
+      it inevitably ends up dry and boring.
+      Dry and boring isn't what can capture young mathematicians,
+      instead the key is hooking them up with fun problems,
+      challenging their understanding of what they thought was obvious
+      and making them come up with the right notions themselves, 
+      or at least to appreciate that they are introduced for something.`,
+      `This class is really a gentle introduction to algebraic number theory,
+      done from a perspective full of motivating examples and geometric intuition.`
     ],
     teachingNotes: [
-      `This class aims to arm you with the algebraic language of rings needed to explore these exotic 'cousins' of integers. Discover which primes can be expressed as $x^2 + 2y^2$, and learn about an 1847 failed attempt to prove Fermat's Last Theorem—and how it actually works for $x^3 + y^3 = z^3$.`
+      `The class was planned for a 3-day $\\times$ 80 min format of MBL
+      and it roughly fitted this timeframe, though while the first two days were done in an 'explore it yourself' format,
+      the final one where we proved $x^3 + y^3 = z^3$ has no non-trivial solutions in the integers,
+      was done more as a standard lecture.`
     ]
   },
   {
@@ -67,12 +120,25 @@ const classesData = [
       { text: 'MBL 2020', link: 'https://mathsbeyondlimits.eu/poland/mbl-2020/' },
       { text: 'MBL Balkans 2026', link: 'https://mathsbeyondlimits.eu/balkans/' }
     ],
-    image: null,
+    image1: {
+      src: 'assets/standalone_cube_symmetries.svg',
+      alt: 'Cube symmetries'
+    },
+    image2: {
+      src: 'assets/standalone_15_puzzle.svg',
+      alt: '15 puzzle'
+    },
     genesis: [
-      `Placeholder text for the genesis of the Symmetry class. This section will describe the motivation and origin of the course.`
+      `Placeholder text for the genesis of the Symmetry class.
+      This section will describe the motivation and origin of the course.`
     ],
     teachingNotes: [
-      `The purpose of this class is gaining intuition for 'how symmetry works' and later structuring the understanding in terms of the very basic definitions of group theory. In fact, this can be regarded as an introduction to group theory via studying group actions. We aim to build intuition and give motivation for them via 'playing' with concrete examples such as platonic solids, permutation puzzles and symmetric polynomials.`
+      `The purpose of this class is gaining intuition for 'how symmetry works'
+      and later structuring the understanding in terms of the very basic definitions of group theory.
+      In fact, this can be regarded as an introduction to group theory via studying group actions.
+      We aim to build intuition and give motivation for them
+      via 'playing' with concrete examples such as platonic solids,
+      permutation puzzles and symmetric polynomials.`
     ]
   },
   {
@@ -90,12 +156,22 @@ const classesData = [
     tags: [
       { text: 'Falenty 2026', link: 'https://fundusz.org/fundusz-zdolni-rekrutacja/obozy/' }
     ],
-    image: null,
+    image1: {
+      src: 'assets/standalone_hht_hth_cube.svg',
+      alt: 'HHT and HTH game state cube'
+    },
+    image2: {
+      src: 'assets/standalone_communication_classes_solution.svg',
+      alt: 'Markov chain communication classes'
+    },
     genesis: [
-      `Placeholder text for the genesis of the Markov Chains class. This section will describe the motivation and origin of the course.`
+      `Placeholder text for the genesis of the Markov Chains class.
+      This section will describe the motivation and origin of the course.`
     ],
     teachingNotes: [
-      `Na zajęciach zrozumiemy, co to znaczy formalnie i zobaczymy kilka zaskakujących własności tych łańcuchów, a po drodze zahaczymy, chcąc nie chcąc, o podstawy algebry liniowej.`
+      `Na zajęciach zrozumiemy, co to znaczy formalnie
+      i zobaczymy kilka zaskakujących własności tych łańcuchów,
+      a po drodze zahaczymy, chcąc nie chcąc, o podstawy algebry liniowej.`
     ]
   }
 ];

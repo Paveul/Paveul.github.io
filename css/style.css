@@ -656,6 +656,10 @@ a:hover {
   display: block;
 }
 
+#class-photo-placeholder-2 {
+  margin-top: var(--space-2xl);
+}
+
 /* ---------- Footer ---------- */
 .footer {
   text-align: center;

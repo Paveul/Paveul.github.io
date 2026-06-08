@@ -117,10 +117,10 @@
       const classId = photoPlaceholder.getAttribute('data-class-id');
       const classObj = classesData.find(c => c.id === classId);
       if (classObj) {
-        if (classObj.image && classObj.image.src) {
+        if (classObj.image1 && classObj.image1.src) {
           photoPlaceholder.innerHTML = `
             <div class="page-photo">
-              <img src="${classObj.image.src}" alt="${classObj.image.alt || ''}">
+              <img src="${classObj.image1.src}" alt="${classObj.image1.alt || ''}">
             </div>
           `;
         } else {
@@ -128,6 +128,19 @@
             <div class="page-photo placeholder">Photo Placeholder</div>
           `;
         }
+      }
+    }
+
+    const photoPlaceholder2 = document.getElementById('class-photo-placeholder-2');
+    if (photoPlaceholder2) {
+      const classId = photoPlaceholder2.getAttribute('data-class-id');
+      const classObj = classesData.find(c => c.id === classId);
+      if (classObj && classObj.image2 && classObj.image2.src) {
+        photoPlaceholder2.innerHTML = `
+          <div class="page-photo">
+            <img src="${classObj.image2.src}" alt="${classObj.image2.alt || ''}">
+          </div>
+        `;
       }
     }
 
