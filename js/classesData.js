@@ -219,10 +219,55 @@ const classesData = [
       alt: 'Markov chain communication classes'
     },
     genesis: [
+      `Pomysł na te zajęcia narodził się kiedy chcąc-niechcąc
+      spędzałem długie godziny przygotowując się do 
+      rozmów o pracę w hedge-fundach i market-makerach. 
+      Pomyślałem, że za zadaniami typu
+      "Ile średnio razy rzucimy kostką, zanim każda ze ścianek wypadnie"
+      kryje się relatywnie prosta, ale ważna teoria.
+      A zadań tego typu jest mnóstwo, a co ważniejsze,
+      teoria Łańcuchów Markowa <b>przydaje się w <i>prawdziwych</i> zastosowaniach</b>.`,
 
+      `Kolejnym etapem była refleksja, 
+      że zajęcia z tego tematu muszą zahaczyć o sfery <i>dorosłej matematyki</i>: 
+      rachunek prawdopodobieństwa i algebrę liniową, a nawet i analizę w wielu wymiarach. 
+      Mówiąc krótko, poza dobrą zabawą będzie z tego i tak zwany <i>pożytek</i>.`
     ],
     teachingNotes: [
+      `Zajęcia były planowane do przeprowadzenia w formacie $3 \\times 2h$ w ramach obozu 
+      Funduszu Zdolni w Falentach, stąd też objętość materiału jest dość spora. 
+      Według krótkiej ankiety przeprowadzonej na początku zajęć, 
+      uczestnicy czuli się komfortowo z podstawami rachunku prawdopodobieństwa 
+      oraz <i>widzieli</i> mnożenie macierzy. 
+      Z perspektywy czasu, warto było spędzić co najmniej godzinę na powtórce podstaw 
+      i wydać im arkusz przypominający (w obecnej wersji notatek: Apendix A i B).
+      `,
 
+      `Zaczęliśmy od motywacji, czyli szybkiego przeglądu Urny Ehrenfesta,
+      modelowania stanów cywilnych, algorytmu PageRank stworzonego przez Google'a 
+      oraz internetowego trolla na forum Usenet uwiecznionego jako Mark. V. Shaney. 
+      Podsumowaliśmy jakie pytania nas będą interesować w tych kontekstach 
+      i jakie wspólne cechy łączą te przykłady.`,
+
+      `Następnie wprowadziliśmy formalną definicję łańcuchów Markowa 
+      i spędziliśmy sporo czasu na <i>trawieniu</i> jej – 
+      dowodząc podstawowe własności i jednocześnie wprowadzając aparaturę 
+      opisu prawdopodobieństw poszczególnych stanów jako wektorów i 
+      wielokrokowych prawdopodobieństw przejścia jako potęg macierzy przejścia. 
+      Ta część zajęć była dla uczestników całkiem wymagająca.`,
+
+      `Kolejną częścią, która okazała się trudna była <i>analiza pierwszego kroku</i> 
+      pozwalająca na rozwiązywanie wspomnianego typu zadań. 
+      Wydaje mi się, że wynikało to głównie z tego, 
+      że warunkowa wartość oczekiwana i prawo prawdopodobieństwa całkowitego 
+      niekoniecznie zaliczają się do <i>podstaw</i> rachunku prawdopodobieństwa w liceum.`,
+
+      `Niestrudzeni, przeszliśmy do analizy struktury łańcuchów Markowa 
+      pod względem klas komunikacji, okresowości i prawdopodobieństwa powrotu. 
+      Te pojęcia weszły studentom całkiem nieźle, 
+      dzięki czemu mogliśmy zakończyć zajęcia zrozumieniem 
+      treści Podstawowego Twierdzenia Łańcuchów Markowa 
+      i przykładem rozwiązanego w pełni łańcucha dwustanowego.`
     ]
   }
 ];
