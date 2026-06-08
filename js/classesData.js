@@ -90,19 +90,22 @@ const classesData = [
       `I really really like algebra and I can't miss an opportunity to indoctrinate the young with it.
       The problem is that when algebra is tought from an abstract / axiomatic perspective,
       it inevitably ends up dry and boring.
-      Dry and boring isn't what can capture young mathematicians,
+      Dry and boring isn't what can capture young mathematicians;
       instead the key is hooking them up with fun problems,
       challenging their understanding of what they thought was obvious
       and making them come up with the right notions themselves, 
-      or at least to appreciate that they are introduced for something.`,
+      or at least making them appreciate that they are introduced for something.`,
+
       `This class is really a gentle introduction to algebraic number theory,
       done from a perspective full of motivating examples and geometric intuition.`
     ],
     teachingNotes: [
       `The class was planned for a 3-day $\\times$ 80 min format of MBL
       and it roughly fitted this timeframe, though while the first two days were done in an 'explore it yourself' format,
-      the final one where we proved $x^3 + y^3 = z^3$ has no non-trivial solutions in the integers,
-      was done more as a standard lecture.`
+      the final one (where we proved $x^3 + y^3 = z^3$ has no non-trivial solutions in the integers)
+      was done more as a standard lecture.`,
+      `If I had more time, I'd dive deeper into Pell's equation and unit of real quadratic fields
+      and maybe do a little campfire talk about prime ideals factorisation and the class group.`
     ]
   },
   {
