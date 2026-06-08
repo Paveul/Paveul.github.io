@@ -197,6 +197,7 @@ const classesData = [
   {
     id: 'class-markov-chains',
     title: '(PL) Łańcuchy Markowa',
+    lang: 'pl',
     summary: `
     Które pole w Monopoly jest odwiedzane najczęściej?
     Dlaczego po losowym spacerze w 1D i 2D zawsze wrócimy do domu —

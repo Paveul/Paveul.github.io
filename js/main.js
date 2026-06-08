@@ -150,8 +150,9 @@
       const classObj = classesData.find(c => c.id === classId);
       if (classObj && classObj.genesis && classObj.genesis.length > 0) {
         const paragraphsHtml = classObj.genesis.map(p => `<p>${p}</p>`).join('');
+        const headingText = classObj.lang === 'pl' ? 'Geneza' : 'Genesis';
         genesisPlaceholder.innerHTML = `
-          <h2>Genesis</h2>
+          <h2>${headingText}</h2>
           ${paragraphsHtml}
         `;
       }
@@ -163,8 +164,9 @@
       const classObj = classesData.find(c => c.id === classId);
       if (classObj && classObj.teachingNotes && classObj.teachingNotes.length > 0) {
         const paragraphsHtml = classObj.teachingNotes.map(p => `<p>${p}</p>`).join('');
+        const headingText = classObj.lang === 'pl' ? 'Treść i uwagi metodyczne' : 'Content &amp; teaching notes';
         notesPlaceholder.innerHTML = `
-          <h2>Content &amp; teaching notes</h2>
+          <h2>${headingText}</h2>
           ${paragraphsHtml}
         `;
       }
