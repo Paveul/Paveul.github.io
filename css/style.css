@@ -340,8 +340,8 @@ a:hover {
   margin-bottom: var(--space-lg);
 }
 
-.article-content p + ul,
-.article-content p + ol {
+.article-content p+ul,
+.article-content p+ol {
   margin-top: calc(-1 * var(--space-lg) + var(--space-xs));
 }
 
@@ -648,12 +648,15 @@ a:hover {
   border-radius: var(--radius-md);
   overflow: hidden;
   border: 1px solid var(--color-border);
+  padding: var(--space-xs);
+  background: var(--color-bg-secondary);
 }
 
 .page-photo img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 
 #class-photo-placeholder-2 {
@@ -717,7 +720,7 @@ a:hover {
   border-radius: var(--radius-sm);
   padding: var(--space-xs) 0;
   min-width: 250px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 100;
   list-style: none;
 }
