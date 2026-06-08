@@ -152,16 +152,10 @@ const classesData = [
       alt: '15 puzzle'
     },
     genesis: [
-      `Placeholder text for the genesis of the Symmetry class.
-      This section will describe the motivation and origin of the course.`
+
     ],
     teachingNotes: [
-      `The purpose of this class is gaining intuition for 'how symmetry works'
-      and later structuring the understanding in terms of the very basic definitions of group theory.
-      In fact, this can be regarded as an introduction to group theory via studying group actions.
-      We aim to build intuition and give motivation for them
-      via 'playing' with concrete examples such as platonic solids,
-      permutation puzzles and symmetric polynomials.`
+
     ]
   },
   {
@@ -188,13 +182,10 @@ const classesData = [
       alt: 'Markov chain communication classes'
     },
     genesis: [
-      `Placeholder text for the genesis of the Markov Chains class.
-      This section will describe the motivation and origin of the course.`
+
     ],
     teachingNotes: [
-      `Na zajęciach zrozumiemy, co to znaczy formalnie
-      i zobaczymy kilka zaskakujących własności tych łańcuchów,
-      a po drodze zahaczymy, chcąc nie chcąc, o podstawy algebry liniowej.`
+
     ]
   }
 ];
