@@ -24,7 +24,8 @@ const classesData = [
     This class introduces the algebraic language of rings needed to explore these
     exotic 'cousins' of integers and understand unique factorization.`,
     links: [
-      { text: 'Full course notes link', link: 'https://drive.google.com/file/d/1TazeZSOCpUJN8OueXj_sLMvKXr2FG50V/view?usp=sharing' }
+      { text: 'Course notes without solutions', link: 'https://drive.google.com/open?id=1hmlYe6J9nJiTjtzPgluYAQsZ_-jnxUc4&usp=drive_fs' },
+      { text: 'Course notes with solutions', link: 'https://drive.google.com/open?id=1WkSNjiq7hxgOJLY6cZiL8OoFSUmRJ-D1&usp=drive_fs' }
     ],
     tags: [
       { text: 'MBL 2024', link: 'https://mathsbeyondlimits.eu/poland/mbl-2024/' }
@@ -38,7 +39,8 @@ const classesData = [
     understanding the foundational concepts of groups and their actions
     through geometric examples like the tetrahedron and solving the cubic equation.`,
     links: [
-      { text: 'Full course notes link', link: 'https://drive.google.com/file/d/1vrs3Rbr0rfE2WRMvndzo_wE2hJKfS3sc/view?usp=sharing' }
+      { text: 'Course notes without solutions', link: 'https://drive.google.com/open?id=1nvTRSYz_5nsUUdmaB4u43dxrBclzC70W&usp=drive_fs' },
+      { text: 'Course notes with solutions', link: 'https://drive.google.com/open?id=12YNjy5Qqzl82l7FYus_s6dSJP4pXkPph&usp=drive_fs' },
     ],
     tags: [
       { text: 'MBL 2020', link: 'https://mathsbeyondlimits.eu/poland/mbl-2020/' },
@@ -54,7 +56,8 @@ const classesData = [
     ale w 3D możemy błąkać się wiecznie? Wprowadzenie do łańcuchów Markowa
     od podstaw aż do algorytmu PageRank.`,
     links: [
-      { text: 'Link do notatek z rozwiązaniami', link: 'https://drive.google.com/file/d/1bfHZdHtpggbfNFXs-q3-IC9bDG3SULar/view?usp=drive_link' }
+      { text: 'Notatki bez rozwiązań', link: 'https://drive.google.com/open?id=1Tl0ZQj5T0PUug8ytdzP0auPdCXRrg1kF&usp=drive_fs' },
+      { text: 'Notatki z rozwiązaniami', link: 'https://drive.google.com/open?id=1lBo7Ho_b13kb7iIDTDfpdtUEGxdM_s-3&usp=drive_fs' }
     ],
     tags: [
       { text: 'Falenty 2026', link: 'https://fundusz.org/fundusz-zdolni-rekrutacja/obozy/' }
