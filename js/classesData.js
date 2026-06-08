@@ -88,24 +88,44 @@ const classesData = [
     },
     genesis: [
       `I really really like algebra and I can't miss an opportunity to indoctrinate the young with it.
-      The problem is that when algebra is tought from an abstract / axiomatic perspective,
-      it inevitably ends up dry and boring.
+      The problem is that when algebra is taught from an <b>abstract / axiomatic perspective</b>,
+      it inevitably ends up <b>dry and boring</b>.
       Dry and boring isn't what can capture young mathematicians;
       instead the key is hooking them up with fun problems,
       challenging their understanding of what they thought was obvious
       and making them come up with the right notions themselves, 
       or at least making them appreciate that they are introduced for something.`,
 
-      `This class is really a gentle introduction to algebraic number theory,
-      done from a perspective full of motivating examples and geometric intuition.`
+      `This class is really a gentle introduction to <i>algebraic number theory</i>,
+      done from a perspective full of <b>motivating examples</b> and <b>geometric intuition</b>.`
     ],
     teachingNotes: [
-      `The class was planned for a 3-day $\\times$ 80 min format of MBL
-      and it roughly fitted this timeframe, though while the first two days were done in an 'explore it yourself' format,
-      the final one (where we proved $x^3 + y^3 = z^3$ has no non-trivial solutions in the integers)
-      was done more as a standard lecture.`,
+      `The class was planned for a 3-day $\\times$ 80 min format of
+      <a href="https://mathsbeyondlimits.eu/" target="_blank" rel="noopener noreferrer">MBL</a>
+      and it roughly fitted this timeframe, though while the first two days were done in an <i>'explore it yourself'</i> format,
+      the second half of the last day (where we proved $x^3 + y^3 = z^3$ has no non-trivial solutions in the integers)
+      was done more as a <i>standard lecture</i>.`,
+
+      `The first day was a close examination of the Fundamental Theorem of Arithmetic 
+      and thinking what it is that we actually need to prove it.
+      This was followed by learning the <i>adult</i> definitions of ring theory,
+      with many examples and easy problems, leading to the introduction of rings of the form $\\mathbb{Z}[\\alpha]$.
+      We then discussed units, irreducibles, primes and norms,
+      culminating in the re-statement of the Fundamental Theorem of Arithmetic 
+      in the definitions of a UFD and a PID.`,
+
+      `In the second day we used a little geometry generalising the Euclidean Algorithm 
+      to give examples of rings which are PIDs and also to understand why 
+      $6 = 2 \\cdot 3 = (1+i\\sqrt{5})\\cdot(1-i\\sqrt{5})$ is problematic.
+      We then used the uniqueness of factorisation in some of these rings 
+      to study Pythagorean triples, primes of form $x^2 + 2y^2$ and 
+      how primes split in general.`,
+
+      `The last bit was using the uniqueness of factorisation in Eisenstein integers 
+      to prove Fermat's Last Theorem for $n=3$.`,
+
       `If I had more time, I'd dive deeper into Pell's equation and unit of real quadratic fields
-      and maybe do a little campfire talk about prime ideals factorisation and the class group.`
+      and maybe do a little <i>campfire talk</i> about prime ideals factorisation and the class group.`
     ]
   },
   {
