@@ -27,7 +27,7 @@ const classesData = [
       which are <b>easy to define</b>,
       yet they give rise to <b>rich complexity</b>.
       Groups, which I ended up specialising in
-      during my academic life, definitely full into this category
+      during my academic life, definitely fall into this category
       and so do posets—which this class is about.`,
 
       `Besides their elegance, posets are also <b>everywhere</b>.
@@ -90,7 +90,7 @@ const classesData = [
       `I really really like algebra and I can't miss an opportunity to indoctrinate the young with it.
       The problem is that when algebra is taught from an <b>abstract / axiomatic perspective</b>,
       it inevitably ends up <b>dry and boring</b>.
-      Dry and boring isn't what can capture young mathematicians;
+      Dry and boring isn't what wins over young mathematicians;
       instead the key is hooking them up with fun problems,
       challenging their understanding of what they thought was obvious
       and making them come up with the right notions themselves, 
@@ -172,9 +172,10 @@ const classesData = [
       It turned out that we could've easily spent twice that to 
       cover everything in some detail.`,
 
-      `When planning this class, I planned to finish it in 
-      using group theory to solve the Rubik's cube, 
-      but for this we would need much more time.`,
+      `I had originally planned to crown the class by using group theory
+      to solve the Rubik's cube — a beautiful and satisfying capstone
+      that would have required roughly twice the available hours.
+      It remains on the wishlist.`,
 
       `We explored three contexts to develop the intuition,
       following a rudimentary introduction to permutations. 
@@ -182,9 +183,9 @@ const classesData = [
       from a square, through a tetrahedron, to a cube – 
       to my surprise students found the 3D considerations challenging.
       Then we made a brief visit to permutations acting on multivariate polynomials, 
-      solving the cubic (and even quaric) equation.
+      solving the cubic (and even quartic) equation.
       Finally, we used the familiar 15-puzzle to talk about sign of permutations, 
-      forshadowing homomorphisms of groups.`,
+      foreshadowing homomorphisms of groups.`,
 
       `After that, we were ready to introduce the actual definitions of groups and group actions, 
       and to prove basic facts such as that a group where $g^2 = 1$ for each element is abelian.
