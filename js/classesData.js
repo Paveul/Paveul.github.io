@@ -152,10 +152,45 @@ const classesData = [
       alt: '15 puzzle'
     },
     genesis: [
+      `This class is a thinly-veiled attempt at 
+      enticing the students to group theory. 
+      The whole idea is: symmetry is important and useful, 
+      it's helpful to give it a unified formal treatment 
+      and then we can prove surprisingly many things, 
+      which apply to <i>any</i> of the symmetry systems 
+      we may care about.`,
 
+      `The approach we take is to first develop the intuition 
+      through looking at different contexts, 
+      then introduce the definitions of a group and a group action 
+      and then re-interpret what we've done in this abstract context,
+      as well as to prove some basic facts which apply to all groups.`
     ],
     teachingNotes: [
+      `The class was planned for the $3 \\times 80$ min format of 
+      <a href="https://mathsbeyondlimits.eu/" target="_blank" rel="noopener noreferrer">MBL</a>. 
+      It turned out that we could've easily spent twice that to 
+      cover everything in some detail.`,
 
+      `When planning this class, I planned to finish it in 
+      using group theory to solve the Rubik's cube, 
+      but for this we would need much more time.`,
+
+      `We explored three contexts to develop the intuition,
+      following a rudimentary introduction to permutations. 
+      First we studied symmetries of regular geometric shapes,
+      from a square, through a tetrahedron, to a cube – 
+      to my surprise students found the 3D considerations challenging.
+      Then we made a brief visit to permutations acting on multivariate polynomials, 
+      solving the cubic (and even quaric) equation.
+      Finally, we used the familiar 15-puzzle to talk about sign of permutations, 
+      forshadowing homomorphisms of groups.`,
+
+      `After that, we were ready to introduce the actual definitions of groups and group actions, 
+      and to prove basic facts such as that a group where $g^2 = 1$ for each element is abelian.
+      The final boss was the <i>Orbit-Stabiliser Theorem</i>,
+      which we used to understand why the size of subgroups and of conjugacy classes 
+      must divide the size of the group.`
     ]
   },
   {
