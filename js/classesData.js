@@ -116,7 +116,7 @@ const classesData = [
 
       `In the second day we used a little geometry generalising the Euclidean Algorithm 
       to give examples of rings which are PIDs and also to understand why 
-      $6 = 2 \\cdot 3 = (1+i\\sqrt{5})\\cdot(1-i\\sqrt{5})$ is problematic.
+      $6 = 2 \\cdot 3 = (1+\\sqrt{-5})\\cdot(1-\\sqrt{-5})$ is problematic.
       We then used the uniqueness of factorisation in some of these rings 
       to study Pythagorean triples, primes of form $x^2 + 2y^2$ and 
       how primes split in general.`,
@@ -124,7 +124,7 @@ const classesData = [
       `The last bit was using the uniqueness of factorisation in Eisenstein integers 
       to prove Fermat's Last Theorem for $n=3$.`,
 
-      `If I had more time, I'd dive deeper into Pell's equation and unit of real quadratic fields
+      `If I had more time, I'd dive deeper into Pell's equation, the units of real quadratic fields
       and maybe do a little <i>campfire talk</i> about prime ideals factorisation and the class group.`
     ]
   },
