@@ -171,6 +171,26 @@
         `;
       }
     }
+
+    const sourcesPlaceholder = document.getElementById('class-sources-placeholder');
+    if (sourcesPlaceholder) {
+      const classId = sourcesPlaceholder.getAttribute('data-class-id');
+      const classObj = classesData.find(c => c.id === classId);
+      if (classObj && classObj.sources && classObj.sources.length > 0) {
+        const listItemsHtml = classObj.sources.map(s => `
+          <li class="pub-item" style="border-bottom: none; padding-top: var(--space-xs); padding-bottom: var(--space-xs);">
+            <div class="pub-body">${s}</div>
+          </li>
+        `).join('');
+        const headingText = classObj.lang === 'pl' ? 'Materiały źródłowe' : 'Source materials';
+        sourcesPlaceholder.innerHTML = `
+          <h2>${headingText}</h2>
+          <ul class="pub-list" style="margin-bottom: 0;">
+            ${listItemsHtml}
+          </ul>
+        `;
+      }
+    }
   }
 
   // --- Reveal-on-scroll animations ---

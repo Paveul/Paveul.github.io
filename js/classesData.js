@@ -61,6 +61,18 @@ const classesData = [
       according to their natural preferences.
       Finally, we all meet together for the <i>Grand Finale</i>,
       which is examples and the theory of Galois connections.`
+    ],
+    sources: [
+      `B. Bogdańska, A. Neugebauer,
+      <i>Matematyka olimpijska. Kombinatoryka</i>,
+      Wydawnictwo Szkolne OMEGA, 2019.`,
+
+      `R. Backhouse,
+      <i>Galois connections and fixed point calculus</i>,
+      Algebraic and Coalgebraic Methods in the Mathematics of Program Construction,
+      Springer, 2002.
+      <a href="https://people.cs.nott.ac.uk/psarb2/MPC/FPandGC.pdf" target="_blank" rel="noopener noreferrer">URL</a>,
+      <a href="https://doi.org/10.1007/3-540-47797-7_4" target="_blank" rel="noopener noreferrer">DOI</a>`
     ]
   },
   {
@@ -126,6 +138,11 @@ const classesData = [
 
       `If I had more time, I'd dive deeper into Pell's equation, the units of real quadratic fields
       and maybe do a little <i>campfire talk</i> about prime ideals factorisation and the class group.`
+    ],
+    sources: [
+      `A. Neugebauer,
+      <i>Matematyka olimpijska. Algebra i teoria liczb</i>,
+      Wydawnictwo Szkolne OMEGA.`
     ]
   },
   {
@@ -192,6 +209,12 @@ const classesData = [
       The final boss was the <i>Orbit-Stabiliser Theorem</i>,
       which we used to understand why the size of subgroups and of conjugacy classes 
       must divide the size of the group.`
+    ],
+    sources: [
+      `K. Conrad,
+      <i>The 15-puzzle (and Rubik's cube)</i>,
+      Expository papers.
+      <a href="https://kconrad.math.uconn.edu/blurbs/grouptheory/15puzzle.pdf" target="_blank" rel="noopener noreferrer">URL</a>`
     ]
   },
   {
@@ -268,6 +291,17 @@ const classesData = [
       dzięki czemu mogliśmy zakończyć zajęcia zrozumieniem 
       treści Podstawowego Twierdzenia Łańcuchów Markowa 
       i przykładem rozwiązanego w pełni łańcucha dwustanowego.`
+    ],
+    sources: [
+      `N. Privault,
+      <i>Understanding Markov Chains: Examples and Applications</i>,
+      Springer Nature Singapore, 2018.
+      <a href="https://www.math.uni.wroc.pl/~szekli/documents/m-CHAINS-21/nicolas18.pdf" target="_blank" rel="noopener noreferrer">URL</a>,
+      <a href="https://doi.org/10.1007/978-981-13-0659-4" target="_blank" rel="noopener noreferrer">DOI</a>`,
+
+      `H.M. Taylor, S. Karlin,
+      <i>An Introduction to Stochastic Modeling</i>,
+      Academic Press, 1998.`
     ]
   }
 ];
