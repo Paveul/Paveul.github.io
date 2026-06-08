@@ -111,6 +111,51 @@
         linkPlaceholder.innerHTML = linksHtml;
       }
     }
+
+    const photoPlaceholder = document.getElementById('class-photo-placeholder');
+    if (photoPlaceholder) {
+      const classId = photoPlaceholder.getAttribute('data-class-id');
+      const classObj = classesData.find(c => c.id === classId);
+      if (classObj) {
+        if (classObj.image && classObj.image.src) {
+          photoPlaceholder.innerHTML = `
+            <div class="page-photo">
+              <img src="${classObj.image.src}" alt="${classObj.image.alt || ''}">
+            </div>
+          `;
+        } else {
+          photoPlaceholder.innerHTML = `
+            <div class="page-photo placeholder">Photo Placeholder</div>
+          `;
+        }
+      }
+    }
+
+    const genesisPlaceholder = document.getElementById('class-genesis-placeholder');
+    if (genesisPlaceholder) {
+      const classId = genesisPlaceholder.getAttribute('data-class-id');
+      const classObj = classesData.find(c => c.id === classId);
+      if (classObj && classObj.genesis && classObj.genesis.length > 0) {
+        const paragraphsHtml = classObj.genesis.map(p => `<p>${p}</p>`).join('');
+        genesisPlaceholder.innerHTML = `
+          <h2>Genesis</h2>
+          ${paragraphsHtml}
+        `;
+      }
+    }
+
+    const notesPlaceholder = document.getElementById('class-notes-placeholder');
+    if (notesPlaceholder) {
+      const classId = notesPlaceholder.getAttribute('data-class-id');
+      const classObj = classesData.find(c => c.id === classId);
+      if (classObj && classObj.teachingNotes && classObj.teachingNotes.length > 0) {
+        const paragraphsHtml = classObj.teachingNotes.map(p => `<p>${p}</p>`).join('');
+        notesPlaceholder.innerHTML = `
+          <h2>Content &amp; teaching notes</h2>
+          ${paragraphsHtml}
+        `;
+      }
+    }
   }
 
   // --- Reveal-on-scroll animations ---
